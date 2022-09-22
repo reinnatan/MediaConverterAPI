@@ -1,6 +1,3 @@
 # MediaConverterAPI
-# Tech Stack
-    - Springboot
-    - ffmpeg
 # Collections Folder
-    - for collections ```collections``` folder
+    - for collections collections folder
