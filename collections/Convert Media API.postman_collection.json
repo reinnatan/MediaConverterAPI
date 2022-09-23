@@ -60,6 +60,72 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Convert HTML to Image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "webURL",
+							"value": "https://reinnatan.github.io/",
+							"type": "default"
+						},
+						{
+							"key": "fileName",
+							"value": "cv-rein",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/converthtmlimage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converthtmlimage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convert HTML to PDF",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "webURL",
+							"value": "https://reinnatan.github.io/",
+							"type": "default"
+						},
+						{
+							"key": "fileName",
+							"value": "cv-rein",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/converthtmlpdf",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converthtmlpdf"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
